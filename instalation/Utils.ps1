@@ -27,7 +27,8 @@ if (-Not(Check-Command("scoop")))
     Invoke-Expression (new-object net.webclient).downloadstring('https://get.scoop.sh')
     
     scoop install git
-    scoop bucket add java https://github.com/se35710/scoop-java
+    #scoop bucket add java https://github.com/se35710/scoop-java
+    scoop bucket add dcs https://github.com/jtmg/ScoopDCS
     scoop bucket add extras https://github.com/lukesampson/scoop-extras.git
     #scoop install -g openjdk
     scoop install -g vcredist2017
