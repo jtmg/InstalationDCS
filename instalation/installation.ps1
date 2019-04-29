@@ -15,5 +15,5 @@ Install-Program ("robo3t")
 
 
 
-docker run --name mysql -d -it -p 3306:3306 asseco/mysql
-docker run --name mongo -d -it -p 27017:27017 asseco/mongo
+docker run --name mysql -d -it -p 3306:3306 34.242.221.200:8083/mysql
+docker run --name mongo -d -it -p 27017:27017 34.242.221.200:8083/mongo
