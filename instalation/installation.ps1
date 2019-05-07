@@ -13,8 +13,8 @@ Install-Program ("heidisql")
 Install-Program ("robo3t")
 #Install-Program ("maven")
 
-#docker login -u admin -p admin123 34.250.203.252:8082
-#docker login -u admin -p admin123 34.250.203.252:8083
+docker login -u admin -p admin123 34.249.195.60:8082
+docker login -u admin -p admin123 34.249.195.60:8083
 docker pull 34.249.195.60:8082/mysql
 docker pull 34.249.195.60:8082/mongo
 
